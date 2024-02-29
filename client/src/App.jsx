@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className=' w-full m-2'>
         <Outlet />
       </main>
       <Footer />
