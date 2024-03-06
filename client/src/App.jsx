@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      <Header />
-      <main className=' w-full m-2'>
+      <Header className='container w-full m-2 dark:bg-slate-900' />
+      <main className='container w-full m-2 dark:bg-slate-900'>
         <Outlet />
       </main>
       <Footer />

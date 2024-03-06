@@ -1,9 +1,9 @@
 
 function Home() {
   return (
-    <main className="container mx-2 my-2 self-center">
-        Welcome
-    </main>
+    <section className="dark:bg-slate-900 dark:text-white">
+      {/* <img className=" dark:bg-slate-900" src="/assets/heartbeat.gif" alt="heratbeat.gif" /> */}
+    </section>
   )
 }
 

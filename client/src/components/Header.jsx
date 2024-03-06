@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom"
+import MenuIcon from '@mui/icons-material/Menu';
+import Switcher from './Switcher';
+import { IconButton } from "@mui/material";
+
 
 function Header() {
+ 
   return (
    <>
-   <header className="shadow-lg shadow-cyan-500/50 flex flex-row  w-full h-20 items-center justify-between">
-    <nav className="flex flex-row items-center justify-between">
-      <img src="/public/assets/cardiology.png" alt="Logo" className=" aspect-square w-10" />
-      <ul className="flex flex-row items-center justify-center gap-3">
+   <header className="shadow-lg  mx-auto p-6 dark:bg-slate-900 dark:text-white flex flex-row justify-between items-center">
+   <img src="/assets/cardiology.png" alt="Logo" className=" aspect-square w-12" />
+    <nav>
+      <ul className="hidden md:flex flex-row gap-6">
         <li>
           <Link >Home</Link>
         </li>
@@ -24,6 +29,12 @@ function Header() {
         </li>
       </ul>
     </nav>
+    <div className="flex flex-row gap-6 items-center">
+      <Switcher></Switcher>
+      <IconButton  >
+        <MenuIcon color="primary"/>
+      </IconButton>
+    </div>
    </header>
    </>
   )
