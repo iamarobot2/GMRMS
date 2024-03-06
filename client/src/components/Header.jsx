@@ -8,7 +8,7 @@ function Header() {
  
   return (
    <>
-   <header className="shadow-lg  mx-auto p-6 dark:bg-slate-900 dark:text-white flex flex-row justify-between items-center">
+   <header className="shadow-lg  mx-auto px-6 py-1 dark:bg-slate-900 dark:text-white flex flex-row justify-between items-center">
    <img src="/assets/cardiology.png" alt="Logo" className=" aspect-square w-12" />
     <nav>
       <ul className="hidden md:flex flex-row gap-6">
@@ -29,9 +29,11 @@ function Header() {
         </li>
       </ul>
     </nav>
-    <div className="flex flex-row gap-6 items-center">
-      <Switcher></Switcher>
-      <IconButton  >
+    <div className="flex flex-row gap-2 md:gap-6 items-center">
+      <div className="pt-7">
+        <Switcher></Switcher>
+      </div>
+      <IconButton>
         <MenuIcon color="primary"/>
       </IconButton>
     </div>
