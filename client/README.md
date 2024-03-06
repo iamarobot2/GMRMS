@@ -14,5 +14,5 @@ Currently, two official plugins are available:
                          1) cd client
                          2) npm install
                                         : this will install all the dependencies within the package.json
-2) npm run dev 
-                : this will start the vite development server
+                         3) npm run dev 
+                                        : this will start the vite development server
