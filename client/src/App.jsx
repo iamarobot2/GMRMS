@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Header className='dark:bg-slate-900'/>
+      <Header/>
       <main>
         <Outlet />
       </main>
