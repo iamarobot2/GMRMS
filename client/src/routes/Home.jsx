@@ -46,44 +46,44 @@ function Home() {
           </div>
       </section>
       <section className="shadow-md shadow-slate-300 dark:shadow-white mx-auto px-6 lg:px-12 py-6 lg:py-12 dark:bg-slate-900 dark:text-slate-300 text-lg flex flex-col gap-6">
-        <h2>Our Services</h2>
+        <h2 className="font-semibold text-xl">Our Services</h2>
         <ul className=" list-inside flex flex-col items-center justify-center lg:grid grid-cols-3 gap-6 ">
-          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
+          <li className=" dark:bg-white/5 hover:text-black p-6 rounded-2xl bg-slate-200 flex flex-col gap-4 transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 hover:bg-blue-200 duration-300">
             <img src="/assets/padlock.png" className="aspect-square w-16" /> 
             <h3 className="font-semibold text-xl">Patient-Centric Data Access and Control</h3>
             <p>Access your complete medical information securely through your personal account. You have the power to grant 
               access to specific data to authorized healthcare providers.
             </p>
           </li>
-          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
+          <li className=" dark:bg-white/5 hover:text-black p-6 rounded-2xl bg-slate-200 flex flex-col gap-4 transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 hover:bg-blue-200 duration-300">
             <img src="/assets/calendersearch.png" className="aspect-square w-16" /> 
             <h3 className="font-semibold text-xl">Appointment Booking and Discovery</h3>
             <p>Find the right healthcare provider for your needs. Our system facilitates online appointment booking and helps 
               you discover recommended doctors or hospitals based on your symptoms or other criteria.
             </p>
           </li>
-          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
+          <li className=" dark:bg-white/5 hover:text-black p-6 rounded-2xl bg-slate-200 flex flex-col gap-4 transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 hover:bg-blue-200 duration-300">
             <img src="/assets/share.png" className="aspect-square w-16" /> 
             <h3 className="font-semibold text-xl">Seamless Data Sharing</h3>
             <p>Share your medical data seamlessly with your consent. Our system eliminates the need for intermediaries and 
               redundant tests, streamlining the diagnostic process.
             </p>
           </li>
-          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
+          <li className=" dark:bg-white/5 hover:text-black p-6 rounded-2xl bg-slate-200 flex flex-col gap-4transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 hover:bg-blue-200 duration-300">
             <img src="/assets/insurance.png" className="aspect-square w-16" /> 
             <h3 className="font-semibold text-xl">Insurance Management</h3>
             <p>Manage your insurance information efficiently with our system. Hospital management can view and verify patient 
               insurance information, improving billing and claims processing.
             </p>
           </li>
-          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
+          <li className=" dark:bg-white/5 hover:text-black p-6 rounded-2xl bg-slate-200 flex flex-col gap-4transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 hover:bg-blue-200 duration-300">
             <img src="/assets/document.png" className="aspect-square w-16" /> 
             <h3 className="font-semibold text-xl">Detailed Medical Record Updates</h3>
             <p>Keep your medical records up-to-date. Doctors can directly update your medical records, including visit details,
                medical reports, prescribed medications, and other relevant information.
             </p>
           </li>
-          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
+          <li className=" dark:bg-white/5 hover:text-black p-6 rounded-2xl bg-slate-200 flex flex-col gap-4 transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 hover:bg-blue-200 duration-300">
             <img src="/assets/sharing.png" className="aspect-square w-16" /> 
             <h3 className="font-semibold text-xl">Interoperable Medical Record Sharing</h3>
             <p>Share your medical history with new healthcare providers, regardless of where your previous consultations occurred.
