@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link';
 import MenuIcon from '@mui/icons-material/Menu';
 import Switcher from './Switcher';
 import { Button, IconButton } from "@mui/material";
-
 
 function Header() {
  
   return (
    <>
-   <header className="shadow-xl shadow-slate-500 dark:shadow-slate-300 w-full  mx-auto px-6 lg:px-12 py-1 dark:bg-slate-900 dark:text-white flex flex-row justify-between items-center">
+   <header className="fixed w-full  mx-auto px-6 lg:px-12 py-1 dark:bg-slate-900 bg-white dark:text-white flex flex-row justify-between items-center z-50">
    <div className="flex flex-row items-center gap-10">
     <div className="flex flex-row gap-2 items-center">
       <img src="/assets/logo3.png" alt="Logo" className=" aspect-square w-12" />
@@ -17,16 +16,13 @@ function Header() {
       <nav>
         <ul className="hidden lg:flex flex-row gap-6 text-md dark:text-slate-300 text-slate-700">
           <li className="hover:text-blue-400">
-            <Link >Home</Link>
+            <Link smooth to="/#home" >Home</Link>
+          </li>
+          <li className="hover:text-blue-400">
+            <Link smooth to="/#services" >Our Services</Link>
           </li>
           <li className="hover:text-blue-400">
             <Link >About</Link>
-          </li>
-          <li className="hover:text-blue-400">
-            <Link >Features</Link>
-          </li>
-          <li className="hover:text-blue-400">
-            <Link >Resources</Link>
           </li>
           <li className="hover:text-blue-400">
             <Link>Contact Us</Link>

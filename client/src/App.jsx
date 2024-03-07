@@ -1,17 +1,17 @@
 import { Outlet } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <main>
+      <main className='pt-24'>
         <Outlet />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
