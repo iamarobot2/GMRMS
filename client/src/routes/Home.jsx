@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Home() {
   return (
     <>
-      <section className=" dark:bg-slate-900 w-full bg-[url('/assets/hero1.jpg')] bg-center bg-cover mx-auto px-6 lg:px-12 py-6 lg:py-12 flex flex-col text-xl">
+      <section className=" dark:bg-slate-900 w-full bg-[url('/assets/hero1.jpg')] bg-center bg-cover mx-auto px-6 lg:px-12 py-6 lg:py-12 flex flex-col text-lg">
         <div className="flex flex-col gap-4 lg:w-2/5">
           <div className="container mx-auto flex gap-4 flex-col items-center backdrop-blur-md bg-white/10 p-6 rounded-2xl">
             <h2 className="font-semibold">Your Health. Your Control.</h2>
@@ -47,47 +47,47 @@ function Home() {
       </section>
       <section className="shadow-md shadow-slate-300 dark:shadow-white mx-auto px-6 lg:px-12 py-6 lg:py-12 dark:bg-slate-900 dark:text-slate-300 text-lg flex flex-col gap-6">
         <h2>Our Services</h2>
-        <ul className=" list-inside flex flex-col items-center justify-center lg:grid grid-cols-3 gap-6">
-          <li className="">
+        <ul className=" list-inside flex flex-col items-center justify-center lg:grid grid-cols-3 gap-6 ">
+          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
             <img src="/assets/padlock.png" className="aspect-square w-16" /> 
-            <h3>Patient-Centric Data Access and Control</h3>
+            <h3 className="font-semibold text-xl">Patient-Centric Data Access and Control</h3>
             <p>Access your complete medical information securely through your personal account. You have the power to grant 
               access to specific data to authorized healthcare providers.
             </p>
           </li>
-          <li>
+          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
             <img src="/assets/calendersearch.png" className="aspect-square w-16" /> 
-            <h3>Appointment Booking and Discovery</h3>
+            <h3 className="font-semibold text-xl">Appointment Booking and Discovery</h3>
             <p>Find the right healthcare provider for your needs. Our system facilitates online appointment booking and helps 
               you discover recommended doctors or hospitals based on your symptoms or other criteria.
             </p>
           </li>
-          <li>
+          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
             <img src="/assets/share.png" className="aspect-square w-16" /> 
-            <h3>Seamless Data Sharing</h3>
+            <h3 className="font-semibold text-xl">Seamless Data Sharing</h3>
             <p>Share your medical data seamlessly with your consent. Our system eliminates the need for intermediaries and 
-              redundant tests, streamlining the diagnostic process and ensuring continuity of care
+              redundant tests, streamlining the diagnostic process.
             </p>
           </li>
-          <li>
+          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
             <img src="/assets/insurance.png" className="aspect-square w-16" /> 
-            <h3>Insurance Management</h3>
+            <h3 className="font-semibold text-xl">Insurance Management</h3>
             <p>Manage your insurance information efficiently with our system. Hospital management can view and verify patient 
               insurance information, improving billing and claims processing.
             </p>
           </li>
-          <li>
+          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
             <img src="/assets/document.png" className="aspect-square w-16" /> 
-            <h3>Detailed Medical Record Updates</h3>
+            <h3 className="font-semibold text-xl">Detailed Medical Record Updates</h3>
             <p>Keep your medical records up-to-date. Doctors can directly update your medical records, including visit details,
                medical reports, prescribed medications, and other relevant information.
             </p>
           </li>
-          <li>
+          <li className=" dark:bg-white/5 p-6 rounded-2xl bg-slate-200 flex flex-col gap-4">
             <img src="/assets/sharing.png" className="aspect-square w-16" /> 
-            <h3>Interoperable Medical Record Sharing</h3>
+            <h3 className="font-semibold text-xl">Interoperable Medical Record Sharing</h3>
             <p>Share your medical history with new healthcare providers, regardless of where your previous consultations occurred.
-               This eliminates the need for you to carry physical records or repeat tests, improving diagnostic accuracy and treatment planning.
+               Eliminating the need to repeat tests, improving diagnostic accuracy.
             </p>
           </li>
         </ul>

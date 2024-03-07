@@ -10,7 +10,7 @@ function Header() {
    <>
    <header className="shadow-xl shadow-slate-500 dark:shadow-slate-300 w-full  mx-auto px-6 lg:px-12 py-1 dark:bg-slate-900 dark:text-white flex flex-row justify-between items-center">
    <div className="flex flex-row items-center gap-10">
-    <div className="flex flex-row gap-4 items-center">
+    <div className="flex flex-row gap-2 items-center">
       <img src="/assets/logo3.png" alt="Logo" className=" aspect-square w-12" />
       <h1 className="text-2xl font-semibold">One Health</h1>
     </div>
