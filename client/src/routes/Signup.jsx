@@ -66,7 +66,7 @@ function Signup() {
     }
 
     return (
-    <div className="container mx-auto py-12 px-4 min-h-screen dark:bg-slate-800 dark:text-white">
+    <div className="py-12 px-4 min-h-screen dark:bg-slate-800 dark:text-white">
         <Helmet>
             <title>Signup</title>
         </Helmet>

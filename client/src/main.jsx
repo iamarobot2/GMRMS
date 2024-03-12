@@ -9,7 +9,8 @@ import {
 import ErrorPage from './pages/ErrorPage.jsx'
 import Home from './routes/Home.jsx'
 import Login from './routes/Login.jsx'
-import Signup from './routes/Signup.jsx'
+// import Signup from './routes/Signup.jsx'
+import PatientSignup from './routes/PatientSignup.jsx'
 const router = createBrowserRouter(
   [
     {
@@ -28,7 +29,10 @@ const router = createBrowserRouter(
         },
         {
           path:'/signup',
-          element:<Signup />
+          element:<PatientSignup />
+        },
+        {
+          
         }
       ]
     }
