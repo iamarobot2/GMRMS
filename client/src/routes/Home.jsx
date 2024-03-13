@@ -10,7 +10,7 @@ function Home() {
         <title>One Health</title>
       </Helmet>
       <div className="scroll-margin-top-header" id="home"></div>
-      <section className=" dark:bg-slate-900 w-full bg-[url('/assets/hero1.jpg')] bg-center bg-cover mx-auto px-6 lg:px-12 py-6 lg:py-12 flex flex-col text-lg font-poppins">
+      <section className=" dark:bg-slate-900 w-full bg-[url('/assets/hero1.jpg')] bg-center bg-cover mx-auto px-6 lg:px-12 py-6 lg:py-12 flex flex-col text-lg font-poppins select-none">
         <div className="flex flex-col gap-4 lg:w-2/5">
           <div className="container mx-auto flex gap-4 flex-col items-center backdrop-blur-md bg-white/10 p-6 rounded-2xl">
             <h2 className="font-semibold">Your Health. Your Control.</h2>
@@ -40,7 +40,7 @@ function Home() {
           </Link>
         </div>
       </section>
-      <section className="shadow-md shadow-slate-300 dark:shadow-white mx-auto px-6 lg:px-12 py-6 lg:py-12 dark:bg-slate-900 dark:text-slate-300 text-lg flex flex-col gap-6">
+      <section className="shadow-md shadow-slate-300 dark:shadow-white mx-auto px-6 lg:px-12 py-6 lg:py-12 dark:bg-slate-900 dark:text-slate-300 text-lg flex flex-col gap-6 select-none">
         <div className="flex flex-col gap-4 font-poppins">
           <h2 className="text-xl font-semibold">Our Mission</h2>
           <p className="dark:font-light pr-1 text-justify">
@@ -70,7 +70,7 @@ function Home() {
         </div>
       </section>
       <div className="scroll-margin-top-header" id="services"></div>
-      <section className="shadow-md shadow-slate-300 dark:shadow-white mx-auto px-6 lg:px-12 py-6 lg:py-12 dark:bg-slate-900 dark:text-slate-300 text-lg flex flex-col gap-6">
+      <section className="shadow-md shadow-slate-300 dark:shadow-white mx-auto px-6 lg:px-12 py-6 lg:py-12 dark:bg-slate-900 dark:text-slate-300 text-lg flex flex-col gap-6 select-none">
         <h2 className="font-semibold text-xl">Our Services</h2>
         <ul className=" list-inside flex flex-col items-center justify-center lg:grid grid-cols-3 gap-6 ">
           <li className=" dark:bg-white/5 hover:text-black p-6 rounded-2xl bg-slate-100 flex flex-col gap-4 transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 hover:bg-blue-200 duration-300">

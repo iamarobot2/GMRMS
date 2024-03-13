@@ -24,7 +24,7 @@ function Header() {
       role="presentation"
       onClick={toggleDrawer(false)}
     >
-      <div  className="dark:bg-slate-900 bg-white dark:text-white h-full w-full py-12 px-6 flex flex-col gap-12">
+      <div  className="dark:bg-slate-900 bg-white dark:text-white h-full w-full py-12 px-6 flex flex-col gap-12 select-none">
         <nav>
           <ul className="flex flex-col text-md gap-4">
             <li className="hover:text-blue-400">
@@ -62,7 +62,7 @@ function Header() {
   );
   return (
     <>
-      <header className="fixed w-full  mx-auto px-6 lg:px-12 py-1 dark:bg-slate-900 bg-white dark:text-white flex flex-row justify-between items-center z-50 font-poppins">
+      <header className="fixed w-full  mx-auto px-6 lg:px-12 py-1 dark:bg-slate-900 bg-white dark:text-white flex flex-row justify-between items-center z-50 font-poppins select-none">
         <div className="flex flex-row items-center gap-10">
           <div className="flex flex-row gap-2 items-center">
             <img
