@@ -2,8 +2,13 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import "../App.css";
-
+import { Widget } from "@typeform/embed-react";
 function Home() {
+  const MyComponent = () => {
+    return (
+      <Widget id="odwJ9BYb" style={{ width: "100%", height:"500px"}} className="my-form" />
+    );
+  };
   return (
     <>
       <Helmet>
@@ -147,23 +152,31 @@ function Home() {
         <div className="flex flex-col gap-4 font-poppins">
           <h2 className="text-xl font-semibold">About Us</h2>
           <p className="dark:font-light pr-1 text-justify">
-            <span className=" font-medium">One Health</span> is a global medical record management system (GMRMS) that
-            aims to revolutionize healthcare by providing a centralized platform
-            for managing patient medical information. We believe in a
-            patient-centric approach where patients have complete control over
-            their medical data. Founded in 2024, our mission is to improve the
-            efficiency and accuracy of medical care worldwide. Our team
-            comprises dedicated professionals from diverse backgrounds,
-            including healthcare, technology, and data security, who share a
-            common goal - to make healthcare more accessible and efficient. We
-            understand the challenges faced by both patients and healthcare
-            providers in managing medical information. That’s why we’ve designed
-            One Health to be user-friendly, secure, and interoperable. Whether
-            you’re a patient looking to manage your medical records or a doctor
-            seeking efficient patient data management, One Health is here to
-            assist you. At One Health, we’re not just about providing services;
-            we’re about building a healthier future. Join us on this journey.
+            <span className=" font-medium">One Health</span> is a global medical
+            record management system (GMRMS) that aims to revolutionize
+            healthcare by providing a centralized platform for managing patient
+            medical information. We believe in a patient-centric approach where
+            patients have complete control over their medical data. Founded in
+            2024, our mission is to improve the efficiency and accuracy of
+            medical care worldwide. Our team comprises dedicated professionals
+            from diverse backgrounds, including healthcare, technology, and data
+            security, who share a common goal - to make healthcare more
+            accessible and efficient. We understand the challenges faced by both
+            patients and healthcare providers in managing medical information.
+            That’s why we’ve designed One Health to be user-friendly, secure,
+            and interoperable. Whether you’re a patient looking to manage your
+            medical records or a doctor seeking efficient patient data
+            management, One Health is here to assist you. At One Health, we’re
+            not just about providing services; we’re about building a healthier
+            future. Join us on this journey.
           </p>
+        </div>
+      </section>
+      <div className="scroll-margin-top-header" id="contact"></div>
+      <section className="shadow-md shadow-slate-300 dark:shadow-white mx-auto px-6 lg:px-12 py-6 lg:py-12 dark:bg-slate-900 dark:text-slate-300 text-lg flex flex-col gap-6 select-none">
+        <div className="flex flex-col gap-4 font-poppins">
+          <h2 className="text-xl font-semibold">Contact Us</h2>
+          <MyComponent />
         </div>
       </section>
     </>

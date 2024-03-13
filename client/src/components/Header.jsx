@@ -41,7 +41,7 @@ function Header() {
               <Link smooth to="/#about">About</Link>
             </li>
             <li className="hover:text-blue-400">
-              <Link>Contact Us</Link>
+              <Link smooth to="/#contact">Contact Us</Link>
             </li>
           </ul>
         </nav>
@@ -88,7 +88,7 @@ function Header() {
                 <Link smooth to="/#about">About</Link>
               </li>
               <li className="hover:text-blue-400">
-                <Link>Contact Us</Link>
+                <Link smooth to="/#contact">Contact Us</Link>
               </li>
             </ul>
           </nav>
