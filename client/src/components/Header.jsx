@@ -38,7 +38,7 @@ function Header() {
               </Link>
             </li>
             <li className="hover:text-blue-400">
-              <Link>About</Link>
+              <Link smooth to="/#about">About</Link>
             </li>
             <li className="hover:text-blue-400">
               <Link>Contact Us</Link>
@@ -62,7 +62,7 @@ function Header() {
   );
   return (
     <>
-      <header className="fixed w-full  mx-auto px-6 lg:px-12 py-1 dark:bg-slate-900 bg-white dark:text-white flex flex-row justify-between items-center z-50">
+      <header className="fixed w-full  mx-auto px-6 lg:px-12 py-1 dark:bg-slate-900 bg-white dark:text-white flex flex-row justify-between items-center z-50 font-poppins">
         <div className="flex flex-row items-center gap-10">
           <div className="flex flex-row gap-2 items-center">
             <img
@@ -85,7 +85,7 @@ function Header() {
                 </Link>
               </li>
               <li className="hover:text-blue-400">
-                <Link>About</Link>
+                <Link smooth to="/#about">About</Link>
               </li>
               <li className="hover:text-blue-400">
                 <Link>Contact Us</Link>
