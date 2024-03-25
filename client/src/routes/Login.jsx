@@ -1,4 +1,4 @@
-import { useRef } from "react";
+/* import { useRef } from "react";
 import CTAButton from "../components/CTAButton";
 import * as yup from "yup";
 import { string, object } from "yup";
@@ -6,20 +6,20 @@ import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet"; */
 
 function Login() {
-  const loginForm = useRef(null);
+  //const loginForm = useRef(null);
   //const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
-  const loginSchema = object({
+  /*const loginSchema = object({
     email: string().required("Email is required").email("Invalid Email"),
     password: yup.string().required("Password is required"),
     /* 
             .min(8,"Password should be at least 8 characters")
             .matches(passwordRules, { message: "Please create a stronger password" }) 
             */
-  });
-  async function handleLogin(event) {
+  //})
+  /*async function handleLogin(event) {
     try {
       event.preventDefault();
       const form = loginForm.current;
@@ -51,11 +51,11 @@ function Login() {
       console.log(error);
       toast.error(error.message);
     }
-  }
+  }*/
 
   return (
     <div className="py-32 px-4 min-h-screen dark:bg-slate-800 dark:text-white">
-      <Helmet>
+      {/*<Helmet>
         <title>Login</title>
       </Helmet>
       <section className="flex flex-col justify-center items-center">
@@ -104,7 +104,8 @@ function Login() {
         pauseOnHover
         theme="dark"
         transition:Flip
-      />
+          />*/}
+          <p>Login Paage is under Construction !</p>
     </div>
   );
 }
