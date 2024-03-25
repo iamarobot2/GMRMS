@@ -105,7 +105,7 @@ function Login() {
         theme="dark"
         transition:Flip
           />*/}
-          <p>Login Paage is under Construction !</p>
+          <p>Login Page is under Construction !</p>
     </div>
   );
 }
